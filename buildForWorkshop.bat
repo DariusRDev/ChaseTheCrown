@@ -3,7 +3,7 @@ setlocal
 
 rem Set the source directory and the build directory
 set "source_dir=./"
-set "build_dir=C:/Program Files (x86)/Steam/steamapps/workshop/content/2394070/3183278298/Mods/ItemRumbleMod/"
+set "build_dir=C:\Program Files (x86)\Steam\steamapps\workshop\content\2394070\3183278298/Mods/ChaseTheCrown/"
 
 rem Remove the existing build directory if it exists
 if exist "%build_dir%" rmdir /s /q "%build_dir%"

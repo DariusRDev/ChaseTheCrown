@@ -1,0 +1,16 @@
+name: Chase The Crown | Game Mode
+version: 1.0.0
+description: | 
+  The Player who hits 4 perfect notes in a row gets the crown. The crown gives a 1.1x score multiplier. The multiplier will be increased every Phrase the Player owns the crown by 0.1x until the Max Multiplier (1.5x) is reached. Short Notes will be ignored, because they can be tricky to hit.
+  The Players without the Crown don't have a multiplier.
+
+  All these values can be adjusted.
+website: https://github.com/DariusRDev
+authors:
+  - Darius Rohde
+# Additional assemblies from the app domain that need to be accessed by your mod.
+requiredAssemblies:
+  - UnityEngine.VideoModule
+# Additional types from the standard library that need to be accessed by your mod.
+requiredTypes:
+  - UnityEngine.FontStyle
